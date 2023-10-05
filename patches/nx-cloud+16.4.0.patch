@@ -1,3 +1,157 @@
+diff --git a/node_modules/nx-cloud/lib/core/api/run-group.api.js b/node_modules/nx-cloud/lib/core/api/run-group.api.js
+index e480c12..5c35710 100644
+--- a/node_modules/nx-cloud/lib/core/api/run-group.api.js
++++ b/node_modules/nx-cloud/lib/core/api/run-group.api.js
+@@ -1 +1,147 @@
+-const a1_0x54d9=['axiosMultipleTries','error','defineProperty','../../utilities/axios','apiAxiosInstance','exit','value','/nx-cloud/executions/create-run-group','then','createMetricRecorder','post','createApiAxiosInstance','recordMetric','axiosException','../../utilities/nx-imports-light','response','__awaiter','createRunGroup','throw','message','RUNNER_FAILURE_PERF_ENTRY','next','__esModule','mapRespToPerfEntry'];(function(_0x4f2746,_0x54d920){const _0x4a6e45=function(_0x4642de){while(--_0x4642de){_0x4f2746['push'](_0x4f2746['shift']());}};_0x4a6e45(++_0x54d920);}(a1_0x54d9,0x1b0));const a1_0x4a6e=function(_0x4f2746,_0x54d920){_0x4f2746=_0x4f2746-0x0;let _0x4a6e45=a1_0x54d9[_0x4f2746];return _0x4a6e45;};'use strict';var __awaiter=this&&this[a1_0x4a6e('0x10')]||function(_0x5071ca,_0xd3a950,_0x270073,_0x4fdfb7){function _0x2498cb(_0x323067){return _0x323067 instanceof _0x270073?_0x323067:new _0x270073(function(_0x16f2c9){_0x16f2c9(_0x323067);});}return new(_0x270073||(_0x270073=Promise))(function(_0x2d34e1,_0x367325){function _0x1e196e(_0x329b6b){try{_0x230cc3(_0x4fdfb7[a1_0x4a6e('0x15')](_0x329b6b));}catch(_0x199fb1){_0x367325(_0x199fb1);}}function _0x9e8812(_0x3cfeec){try{_0x230cc3(_0x4fdfb7[a1_0x4a6e('0x12')](_0x3cfeec));}catch(_0x47b03d){_0x367325(_0x47b03d);}}function _0x230cc3(_0x56b2c8){_0x56b2c8['done']?_0x2d34e1(_0x56b2c8[a1_0x4a6e('0x6')]):_0x2498cb(_0x56b2c8[a1_0x4a6e('0x6')])[a1_0x4a6e('0x8')](_0x1e196e,_0x9e8812);}_0x230cc3((_0x4fdfb7=_0x4fdfb7['apply'](_0x5071ca,_0xd3a950||[]))[a1_0x4a6e('0x15')]());});};Object[a1_0x4a6e('0x2')](exports,a1_0x4a6e('0x16'),{'value':!![]});exports['RunGroupApi']=void 0x0;const axios_1=require(a1_0x4a6e('0x3'));const metric_logger_1=require('../../utilities/metric-logger');const {output}=require(a1_0x4a6e('0xe'));class RunGroupApi{constructor(_0x5bdb5f){this[a1_0x4a6e('0x4')]=(0x0,axios_1[a1_0x4a6e('0xb')])(_0x5bdb5f);}[a1_0x4a6e('0x11')](_0x24e54f,_0x58f64d,_0x3f4cca,_0x151121,_0x23d5e8,_0x284c6c,_0x36073c,_0x19ad94,_0x3f1568){var _0x52b573;return __awaiter(this,void 0x0,void 0x0,function*(){const _0x2a0ed2=(0x0,metric_logger_1[a1_0x4a6e('0x9')])(a1_0x4a6e('0x11'));try{const _0x1a03d3=yield(0x0,axios_1[a1_0x4a6e('0x0')])(()=>this[a1_0x4a6e('0x4')]['post'](a1_0x4a6e('0x7'),{'branch':_0x24e54f,'runGroup':_0x58f64d,'ciExecutionId':_0x3f4cca,'ciExecutionEnv':_0x151121,'stopAgentsOnFailure':_0x23d5e8,'agentCount':_0x284c6c,'stopAgentsAfter':_0x36073c,'commitSha':_0x19ad94}));_0x2a0ed2[a1_0x4a6e('0xc')]((0x0,metric_logger_1[a1_0x4a6e('0x17')])(_0x1a03d3));}catch(_0x427452){_0x2a0ed2['recordMetric'](((_0x52b573=_0x427452===null||_0x427452===void 0x0?void 0x0:_0x427452[a1_0x4a6e('0xd')])===null||_0x52b573===void 0x0?void 0x0:_0x52b573['response'])?(0x0,metric_logger_1[a1_0x4a6e('0x17')])(_0x427452[a1_0x4a6e('0xd')][a1_0x4a6e('0xf')]):metric_logger_1[a1_0x4a6e('0x14')]);output[a1_0x4a6e('0x1')]({'title':_0x427452[a1_0x4a6e('0x13')]});process[a1_0x4a6e('0x5')](0x1);}});}['completeRunGroup'](_0x14fc92,_0x306333,_0x37f19a,_0x27a5dc){var _0x953608;return __awaiter(this,void 0x0,void 0x0,function*(){const _0x2c535c=(0x0,metric_logger_1[a1_0x4a6e('0x9')])('completeRunGroup');try{const _0x244adc=yield(0x0,axios_1[a1_0x4a6e('0x0')])(()=>this[a1_0x4a6e('0x4')][a1_0x4a6e('0xa')]('/nx-cloud/executions/complete-run-group',{'branch':_0x14fc92,'runGroup':_0x306333,'ciExecutionId':_0x37f19a,'ciExecutionEnv':_0x27a5dc}));_0x2c535c[a1_0x4a6e('0xc')]((0x0,metric_logger_1[a1_0x4a6e('0x17')])(_0x244adc));}catch(_0x52bd5a){_0x2c535c['recordMetric'](((_0x953608=_0x52bd5a===null||_0x52bd5a===void 0x0?void 0x0:_0x52bd5a[a1_0x4a6e('0xd')])===null||_0x953608===void 0x0?void 0x0:_0x953608[a1_0x4a6e('0xf')])?(0x0,metric_logger_1[a1_0x4a6e('0x17')])(_0x52bd5a[a1_0x4a6e('0xd')][a1_0x4a6e('0xf')]):metric_logger_1['RUNNER_FAILURE_PERF_ENTRY']);output['error']({'title':_0x52bd5a[a1_0x4a6e('0x13')]});process[a1_0x4a6e('0x5')](0x1);}});}}exports['RunGroupApi']=RunGroupApi;
+\ No newline at end of file
++'use strict';
++var __awaiter =
++  (this && this.__awaiter) ||
++  function (thisArg, _arguments, P, generator) {
++    function adopt(value) {
++      return value instanceof P
++        ? value
++        : new P(function (resolve) {
++            resolve(value);
++          });
++    }
++    return new (P || (P = Promise))(function (resolve, reject) {
++      function fulfilled(value) {
++        try {
++          step(generator.next(value));
++        } catch (e) {
++          reject(e);
++        }
++      }
++      function rejected(value) {
++        try {
++          step(generator['throw'](value));
++        } catch (e) {
++          reject(e);
++        }
++      }
++      function step(result) {
++        result.done
++          ? resolve(result.value)
++          : adopt(result.value).then(fulfilled, rejected);
++      }
++      step((generator = generator.apply(thisArg, _arguments || [])).next());
++    });
++  };
++Object.defineProperty(exports, '__esModule', { value: true });
++exports.RunGroupApi = void 0;
++const axios_1 = require('../../utilities/axios');
++const metric_logger_1 = require('../../utilities/metric-logger');
++const { output } = require('../../utilities/nx-imports-light');
++class RunGroupApi {
++  constructor(options) {
++    this.apiAxiosInstance = (0, axios_1.createApiAxiosInstance)(options);
++  }
++  createRunGroup(
++    branch,
++    runGroup,
++    ciExecutionId,
++    ciExecutionEnv,
++    stopAgentsOnFailure,
++    agentCount,
++    stopAgentsAfter,
++    commitSha,
++    commitRef
++  ) {
++    var _a;
++    return __awaiter(this, void 0, void 0, function* () {
++      const recorder = (0, metric_logger_1.createMetricRecorder)(
++        'createRunGroup'
++      );
++      try {
++        console.log('creating run group', {
++          branch,
++          runGroup,
++          ciExecutionId,
++          ciExecutionEnv,
++          stopAgentsOnFailure,
++          agentCount,
++          stopAgentsAfter,
++          commitSha,
++        });
++        const resp = yield (0, axios_1.axiosMultipleTries)(() =>
++          this.apiAxiosInstance.post('/nx-cloud/executions/create-run-group', {
++            branch,
++            runGroup,
++            ciExecutionId,
++            ciExecutionEnv,
++            stopAgentsOnFailure,
++            agentCount,
++            stopAgentsAfter,
++            commitSha,
++          })
++        );
++        recorder.recordMetric((0, metric_logger_1.mapRespToPerfEntry)(resp));
++      } catch (e) {
++        recorder.recordMetric(
++          (
++            (_a = e === null || e === void 0 ? void 0 : e.axiosException) ===
++              null || _a === void 0
++              ? void 0
++              : _a.response
++          )
++            ? (0, metric_logger_1.mapRespToPerfEntry)(e.axiosException.response)
++            : metric_logger_1.RUNNER_FAILURE_PERF_ENTRY
++        );
++        output.error({
++          title: e.message,
++        });
++        process.exit(1);
++      }
++    });
++  }
++  completeRunGroup(branch, runGroup, ciExecutionId, ciExecutionEnv) {
++    var _a;
++    return __awaiter(this, void 0, void 0, function* () {
++      const recorder = (0, metric_logger_1.createMetricRecorder)(
++        'completeRunGroup'
++      );
++      try {
++        console.log('completing run group', {
++          branch,
++          runGroup,
++          ciExecutionId,
++          ciExecutionEnv,
++        });
++        const resp = yield (0, axios_1.axiosMultipleTries)(() =>
++          this.apiAxiosInstance.post(
++            '/nx-cloud/executions/complete-run-group',
++            {
++              branch,
++              runGroup,
++              ciExecutionId,
++              ciExecutionEnv,
++            }
++          )
++        );
++        recorder.recordMetric((0, metric_logger_1.mapRespToPerfEntry)(resp));
++      } catch (e) {
++        recorder.recordMetric(
++          (
++            (_a = e === null || e === void 0 ? void 0 : e.axiosException) ===
++              null || _a === void 0
++              ? void 0
++              : _a.response
++          )
++            ? (0, metric_logger_1.mapRespToPerfEntry)(e.axiosException.response)
++            : metric_logger_1.RUNNER_FAILURE_PERF_ENTRY
++        );
++        output.error({
++          title: e.message,
++        });
++        process.exit(1);
++      }
++    });
++  }
++}
++exports.RunGroupApi = RunGroupApi;
++//# sourceMappingURL=run-group.api.js.map
 diff --git a/node_modules/nx-cloud/lib/utilities/environment.js b/node_modules/nx-cloud/lib/utilities/environment.js
 index 22809f9..dcc4d31 100644
 --- a/node_modules/nx-cloud/lib/utilities/environment.js
