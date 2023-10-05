@@ -45,10 +45,5 @@
     "typescript": "~5.1.3",
     "vite": "~4.3.9",
     "vitest": "~0.32.0"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "nx-cloud@16.3.0": "patches/nx-cloud@16.3.0.patch"
-    }
   }
 }
