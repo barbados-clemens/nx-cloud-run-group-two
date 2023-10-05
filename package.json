@@ -2,7 +2,9 @@
   "name": "@nx-cloud-run-group-two/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "patch-package"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.2",
